@@ -1,4 +1,46 @@
 body {
     background-color: #bbb6b6;
-    font-family: sans-serif,Courier New, monospace;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#header {
+    text-align: center;
+    background-color:#7fffd4;
+    padding: 8px;
+    margin: 8px auto;
+}
+
+.container {
+    background-color:#ffffff;
+    margin: 8px auto;
+    padding: 8px;
+    width:92%;
+    height: auto;
+}
+
+.container ul {
+    display: flex;
+    list-style: none;
+}
+
+.container a {
+    color:#708090;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#0000ff;
+}
+
+a:visited {
+    color:#4b0082;
+}
+
+.container li {
+    background-color:#ffe4c4;
+    width: 30%;
+    height:90%;
+    margin: 0 5px;
+    text-align: center;
+    padding: 2px;
 }
