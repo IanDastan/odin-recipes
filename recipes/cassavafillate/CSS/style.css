@@ -1,3 +1,16 @@
-* {
-    outline: 2px solid red;
+body {
+    background-color: #fff;
+    color:#7e7d7d;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+}
+
+h1,
+h2 {
+    color: #424242;
+}
+
+img {
+    width: 250px;
+    height: auto;
 }
