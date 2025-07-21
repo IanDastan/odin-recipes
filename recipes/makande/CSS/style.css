@@ -1,0 +1,53 @@
+body {
+    background-color: #fff;
+    color: #4d4b4b;
+}
+
+#header {
+    background-color:#7fffd4;
+    text-align: center;
+    border: 2px solid black;
+}
+
+img {
+    width:250px;
+    height:auto;
+}
+
+.box {
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+.description {
+    width: 70%;
+    height: auto;
+    padding-left: 4px;
+    background-color:#b5f1dd;
+}
+
+.ingredients {
+    width: 30%;
+    height: auto;
+    padding-left: 4px;
+    background-color:#d7f1b5;
+}
+
+.instructions {
+    width: 70%;
+    height: auto;
+    padding-left: 4px;
+    background-color:#b5f1dd;
+}
+
+.note {
+    width: 30%;
+    height: auto;
+    padding-left: 4px;
+    background-color:#d7f1b5;
+}
+
+.image {
+    border: 2px solid black;
+    padding: 20px;
+}
