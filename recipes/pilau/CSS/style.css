@@ -1,0 +1,50 @@
+body {
+    color:#555454;
+    background-color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+#header {
+    text-align: center;
+    background-color:aqua;
+    padding: 2px;
+}
+
+.top {
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+.top .image img {
+    width: 400px;
+    height: 300px;
+}
+
+.top .image {
+    padding: 5px;
+    margin-right: 8px;
+}
+
+.top .description {
+    background-color:#baf0de;
+    padding: 3px;
+}
+
+.box {
+    display: flex;
+    background-color: #c0f3cd;
+}
+
+.box .ingredients {
+    width: 50%;
+    height: auto;
+    padding-left: 3px;
+    border-right: 1px solid blue;
+}
+
+.box .instruction {
+    width: 50%;
+    height: auto;
+    padding: 3px;
+}
